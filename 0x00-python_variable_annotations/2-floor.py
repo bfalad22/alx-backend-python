@@ -4,6 +4,7 @@ and returns the floor of the float
 Parameter: n: float
 """
 
+
 def floor(n: float) -> int:
     """ Return largest int value less
     than or equal to n. """
