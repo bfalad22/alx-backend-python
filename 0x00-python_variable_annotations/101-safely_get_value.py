@@ -2,13 +2,10 @@
 """ More involved type annotations """
 
 
-
-
 from typing import Any, Mapping, Union, TypeVar
 
 
 T = TypeVar('T')
-
 
 
 def safely_get_value(dct: Mapping,
