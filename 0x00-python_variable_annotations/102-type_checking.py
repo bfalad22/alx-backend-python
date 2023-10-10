@@ -2,12 +2,7 @@
 """ Type Checking """
 
 
-
 from typing import Tuple, List
-
-
-
-
 
 
 def zoom_array(1st: Tuple, factor: int = 2) -> List:
@@ -18,8 +13,6 @@ def zoom_array(1st: Tuple, factor: int = 2) -> List:
 
             ]
     return zoomed_in
-
-
 
 
 array = [12, 72, 91]
