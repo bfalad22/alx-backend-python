@@ -16,7 +16,7 @@ from typing import List
 wait_random = __import__('0-basic_async_syntax').wait_random
 
 
-async def wait_n(n: int, max_delay: int = 10) -> List[float]:
+async def wait_n(n: int, max_delay: int = 10) -> typing.List[float]:
     """ Waits for ran delay until max_delay, returns list of actual delays """
     spawn_ls = []
     delay_ls = []
